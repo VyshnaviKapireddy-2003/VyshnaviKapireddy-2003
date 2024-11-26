@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0
+        <title>Admin Dashboard</title>
     <style> 
       * {
             margin: 0;
@@ -149,14 +149,14 @@
                     </tr>
                 </thead>
                 <tbody id="role-table-body">
-                    <!-- Role rows will be dynamically inserted -->
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            let users = [
+               </tbody>
+                 </table>
+         
+ </section>
+  </main>
+      <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                  let users = [
                 { id: 1, name: 'nikhila', email: 'nikhila@gmail.com', role: 'Admin', status: 'Active' },
                 { id: 2, name: 'sony', email: 'sony@gmail.com', role: 'User', status: 'Inactive' }
             ];
@@ -238,6 +238,6 @@
            renderUsers();
             renderRoles();
         });
-    </script>
+</script>
 </body>
 </html>
