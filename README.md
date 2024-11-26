@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0
+    <meta name="viewport" content=width=device-width, initial-scale=1.0>
         <title>Admin Dashboard</title>
     <style> 
       * {
@@ -154,7 +154,7 @@
          
  </section>
   </main>
-      <script>
+       <script>
             document.addEventListener('DOMContentLoaded', function () {
                   let users = [
                 { id: 1, name: 'nikhila', email: 'nikhila@gmail.com', role: 'Admin', status: 'Active' },
